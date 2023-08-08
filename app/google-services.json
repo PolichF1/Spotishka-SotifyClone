@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5973946901",
+    "project_id": "spotishka-235f3",
+    "storage_bucket": "spotishka-235f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5973946901:android:83f636d6dfff189ee1541c",
+        "android_client_info": {
+          "package_name": "com.example.spotishka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5973946901-06bfe853cj8ru5gpolpd2adp0onprpdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZDqKfZE97SJ3WIGKS-hg9VPKz9d5VlbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5973946901-06bfe853cj8ru5gpolpd2adp0onprpdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
