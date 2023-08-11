@@ -5,7 +5,6 @@ import android.content.Context
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
 import androidx.media3.common.C.AUDIO_CONTENT_TYPE_MUSIC
-import androidx.media3.common.util.Util
 import androidx.media3.datasource.DefaultDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import dagger.Module
