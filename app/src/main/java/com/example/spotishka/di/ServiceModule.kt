@@ -7,6 +7,7 @@ import androidx.media3.common.C
 import androidx.media3.common.C.AUDIO_CONTENT_TYPE_MUSIC
 import androidx.media3.datasource.DefaultDataSource
 import androidx.media3.exoplayer.ExoPlayer
+import com.example.spotishka.data.remote.MusicDataBase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,6 +20,9 @@ import dagger.hilt.android.scopes.ServiceScoped
 @InstallIn(ServiceComponent::class)
 object ServiceModule {
 
+    @ServiceScoped
+    @Provides
+    fun provideMusicDataBase() = MusicDataBase()
     @ServiceScoped
     @Provides
     fun provideAudioAttributes() = AudioAttributes.Builder()
